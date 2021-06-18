@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624013265181' stop='1624013341237'>
+    <name>Sign up- sureshprojectCode</name>
+    <title>Sign up- sureshprojectCode</title>
+    <test-cases>
+        <test-case start='1624013265199' status='failed' stop='1624013319142'>
+            <name>TC001 to verify that user can signup successfully</name>
+            <title>TC001 to verify that user can signup successfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bbe103e0-4806-4545-9695-b2078ec99094-attachment.png' type='image/png' size='106278'/>
+                <attachment title='Screenshot' source='03ecdf6a-0543-4e88-922c-2f73de78aff0-attachment.png' type='image/png' size='84751'/>
+            </attachments>
+            <failure>
+                <message>Expected 'Error: The email address is already in use by another account.' to be 'You have logged in Suresh'.</message>
+                <stack-trace>Error: Failed expectation
+                    at Common.&lt;anonymous> (C:\Users\suresh\Desktop\LatestProtractor\LetBase\base\ProtractorBase.ts:28:35)
+                    at Generator.next (&lt;anonymous>)
+                    at fulfilled (C:\Users\suresh\Desktop\LatestProtractor\LetBase\base\ProtractorBase.ts:5:58)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1624013319143' status='passed' stop='1624013325763'>
+            <name>TC002 To verify that the signup fails</name>
+            <title>TC002 To verify that the signup fails</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d2943cf3-8f67-4a1b-b8c3-396d4bb1159e-attachment.png' type='image/png' size='84751'/>
+                <attachment title='Screenshot' source='8d1f5e28-9e7b-4773-a25d-518a3d6682de-attachment.png' type='image/png' size='91067'/>
+            </attachments>
+        </test-case>
+        <test-case start='1624013325764' status='passed' stop='1624013334626'>
+            <name>TC003 To verify that the vaid email and no pwd for signup fails</name>
+            <title>TC003 To verify that the vaid email and no pwd for signup fails</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='95e4c848-e485-4f2e-a4c9-c63e49045937-attachment.png' type='image/png' size='91067'/>
+                <attachment title='Screenshot' source='6220874d-50e1-40d7-83a8-7c3977045133-attachment.png' type='image/png' size='94281'/>
+            </attachments>
+        </test-case>
+        <test-case start='1624013334626' status='passed' stop='1624013341234'>
+            <name>TC003 To verify that the vaid PWD and no email for signup fails</name>
+            <title>TC003 To verify that the vaid PWD and no email for signup fails</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8a2da879-824d-4b64-a6b5-1711c04b652c-attachment.png' type='image/png' size='94281'/>
+                <attachment title='Screenshot' source='b8dbeebe-e8d5-428f-8634-9a8a0eceada4-attachment.png' type='image/png' size='89488'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

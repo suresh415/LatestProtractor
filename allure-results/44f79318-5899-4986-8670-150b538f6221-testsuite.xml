@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624012606743' stop='1624012696840'>
+    <name>Sign up- sureshprojectCode</name>
+    <title>Sign up- sureshprojectCode</title>
+    <test-cases>
+        <test-case start='1624012606783' status='passed' stop='1624012665482'>
+            <name>TC001 to verify that user can signup successfully</name>
+            <title>TC001 to verify that user can signup successfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d1ad56c4-edfe-4d0f-95e4-62e59e3abc95-attachment.png' type='image/png' size='106278'/>
+                <attachment title='Screenshot' source='503421d4-6bdd-41cd-8a39-1518db4b0b43-attachment.png' type='image/png' size='77536'/>
+            </attachments>
+        </test-case>
+        <test-case start='1624012665482' status='passed' stop='1624012680647'>
+            <name>TC002 To verify that the signup fails</name>
+            <title>TC002 To verify that the signup fails</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4a7508ca-ee33-4d08-8610-431ad2c0d0c5-attachment.png' type='image/png' size='77536'/>
+                <attachment title='Screenshot' source='27aadfb9-cc25-4bbf-bbfc-e36613ac5412-attachment.png' type='image/png' size='91067'/>
+            </attachments>
+        </test-case>
+        <test-case start='1624012680647' status='passed' stop='1624012689937'>
+            <name>TC003 To verify that the vaid email and no pwd for signup fails</name>
+            <title>TC003 To verify that the vaid email and no pwd for signup fails</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3e5b48e2-320e-40c2-8f1a-79d5eba7cbc4-attachment.png' type='image/png' size='91067'/>
+                <attachment title='Screenshot' source='d7476393-86a1-49b1-a194-376c9ed2ab09-attachment.png' type='image/png' size='94281'/>
+            </attachments>
+        </test-case>
+        <test-case start='1624012689937' status='passed' stop='1624012696838'>
+            <name>TC003 To verify that the vaid PWD and no email for signup fails</name>
+            <title>TC003 To verify that the vaid PWD and no email for signup fails</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a4ae69ec-7324-4296-a84d-2940a70ea1a8-attachment.png' type='image/png' size='94281'/>
+                <attachment title='Screenshot' source='4fbc7122-9c7a-4e2c-b9d5-d7059bea26f6-attachment.png' type='image/png' size='89488'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,15 @@
+{
+    "signup":{
+        "name": "Suresh",
+        "email": "sureshbabu15009144@Letcode.in",
+        "valid_email": "sureshbabu15009133@Letcode.in",
+        "invaild_email123": "sureshbabu@Letcode.in",
+        "password": "pass@123",
+        "invalid_pwd": "pass@12345",
+        "invalid_email": "Error: The email address is badly formatted.",
+        "invalid_password": "Error: The password must be 6 characters long or more.",
+        "already_used": "Error: The email address is already in use by another account.",
+        "login_invalid_email": "Error: The password is invalid or the user does not have a password.",
+        "login_invalid_password": "Error: There is no user record corresponding to this identifier. The user may have been deleted."
+    }
+}

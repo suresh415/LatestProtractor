@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624012465684' stop='1624012606709'>
+    <name>Sign up- sureshprojectCode</name>
+    <title>Sign up- sureshprojectCode</title>
+    <test-cases>
+        <test-case start='1624012465818' status='failed' stop='1624012574455'>
+            <name>TC001 user can successfully signIn</name>
+            <title>TC001 user can successfully signIn</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fa2ca1f3-062e-447d-a426-122c67f6ea1d-attachment.png' type='image/png' size='4700'/>
+                <attachment title='Screenshot' source='31e3503f-5cd8-4c28-95db-236ff3cc3373-attachment.png' type='image/png' size='97686'/>
+            </attachments>
+            <failure>
+                <message>Expected 'Error: There is no user record corresponding to this identifier. The user may have been deleted.' to be 'Welcome Suresh'.</message>
+                <stack-trace>Error: Failed expectation
+                    at Common.&lt;anonymous> (C:\Users\suresh\Desktop\LatestProtractor\LetBase\base\ProtractorBase.ts:28:35)
+                    at Generator.next (&lt;anonymous>)
+                    at fulfilled (C:\Users\suresh\Desktop\LatestProtractor\LetBase\base\ProtractorBase.ts:5:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1624012574455' status='failed' stop='1624012596865'>
+            <name>TC002 To Verify that the login fails </name>
+            <title>TC002 To Verify that the login fails </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6ef360e9-7716-441e-8e62-07202c7a87d4-attachment.png' type='image/png' size='97686'/>
+                <attachment title='Screenshot' source='741d8489-3d47-4aad-90e3-7889ef191106-attachment.png' type='image/png' size='107485'/>
+            </attachments>
+            <failure>
+                <message>Expected 'Error: There is no user record corresponding to this identifier. The user may have been deleted.' to be 'Error: The password is invalid or the user does not have a password.'.</message>
+                <stack-trace>Error: Failed expectation
+                    at Common.&lt;anonymous> (C:\Users\suresh\Desktop\LatestProtractor\LetBase\base\ProtractorBase.ts:28:35)
+                    at Generator.next (&lt;anonymous>)
+                    at fulfilled (C:\Users\suresh\Desktop\LatestProtractor\LetBase\base\ProtractorBase.ts:5:58)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1624012596865' status='passed' stop='1624012606706'>
+            <name>TC003 To verfiy that the login fails</name>
+            <title>TC003 To verfiy that the login fails</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c0c7fe0c-fdd7-4b0d-8328-2a4f52110b92-attachment.png' type='image/png' size='107485'/>
+                <attachment title='Screenshot' source='cc4e7555-ad35-47a7-bf05-76286a73ddbc-attachment.png' type='image/png' size='104514'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
